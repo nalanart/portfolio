@@ -3,18 +3,16 @@
 }
 
 .App header {
-  padding-bottom: 5rem;
   background-color: #646464;
 }
 
 .site-hero {
   background-color: #646464;
-  padding-bottom: 7rem;
+  padding: 5rem 0;
 }
 
 .site-featured {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding: 5rem 0;
 }
 
 .site-cta {
@@ -27,4 +25,8 @@ footer {
   text-align: center;
   color: #ffffff;
   background-color: #3f3f3f;
+}
+
+footer p {
+  margin-bottom: 0;
 }

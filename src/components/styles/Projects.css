@@ -1,0 +1,41 @@
+.projects-hero {
+  background-color: #646464;
+  padding: 5rem 0;
+}
+
+.projects-hero__inner {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1.projects-hero__title {
+  font-size: 3.75rem;
+  color: #ffffff;
+}
+
+h2.projects-hero__subtitle {
+  line-height: 1.3em;
+  color: #c5c5c5;
+}
+
+.projects-projects {
+  padding-top: 5rem;
+}
+
+a.projects-projects__btn {
+  border-radius: 1.5rem;
+}
+
+.projects-projects__preview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto 5rem auto;
+}
+
+.projects-projects__img {
+  width: 50rem;
+  border: 1px solid #adadad;
+}
