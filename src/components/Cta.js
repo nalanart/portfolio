@@ -11,7 +11,7 @@ const Cta = () => {
       </div>
       <div className="socials">
         <ul className="socials-list">
-          <li className="socials-list__item"><span></span>alantran96@gmail.com</li>
+          <li className="socials-list__item"><a>alantran96@gmail.com</a></li>
           <li className="socials-list__item"><a href="https://www.linkedin.com/in/alan-tran-97a287140/" target="_blank">LinkedIn</a></li>
           <li className="socials-list__item"><a href="https://github.com/nalanart" target="_blank">GitHub</a></li>
         </ul>

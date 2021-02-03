@@ -17,11 +17,12 @@
   color: #c5c5c5;
 }
 
-.socials-list__item a:visited {
+.socials-list__item a {
   color: #c5c5c5;
 }
 
 .site-cta__btn {
+  font-weight: 700;
   padding: 1rem 1.5rem;
   border-radius: 2rem;
 }
