@@ -1,0 +1,32 @@
+.site-hero__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.site-hero__content {
+  width: 50%;
+}
+
+h1.site-hero__title {
+  font-size: 3.75rem;
+  color: #ffffff;
+}
+
+h2.site-hero__subtitle {
+  line-height: 1.3em;
+  color: #c5c5c5;
+}
+
+a.site-hero__btn {
+  font-weight: 700;
+  margin-top: 1rem;
+  border-radius: 2rem;
+  padding: 1rem 1.5rem;
+}
+
+.site-hero__portrait {
+  width: 400px;
+}

@@ -1,0 +1,35 @@
+.site-featured__inner {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.site-featured__inner hr {
+  margin-bottom: 3rem;
+}
+
+.site-featured__preview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-featured__img {
+  width: 60%;
+  border: 1px solid #adadad;
+}
+
+.site-featured__content {
+  margin-left: 5rem;
+}
+
+.site-featured__title {
+  font-size: 2.5rem;
+}
+
+.site-featured__subtitle {
+  font-size: 1.875rem;
+}
+
+a.site-featured__btn {
+  border-radius: 1.5rem;
+}

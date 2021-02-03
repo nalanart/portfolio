@@ -1,0 +1,30 @@
+.site-navbar__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.site-navbar__inner a {
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+.site-navbar__inner a:hover {
+  color: #d1d1d1
+}
+
+a.site-logo {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+a.site-menu__item {
+  font-size: 1.875rem;
+}
+
+a.site-menu__item:not(:last-child) {
+  margin-right: 4.5rem;
+}

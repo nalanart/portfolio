@@ -1,0 +1,27 @@
+.site-cta__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.site-cta__title {
+  font-size: 3.125rem;
+  color: #ffffff;
+}
+
+.site-cta__subtitle,
+.socials-list__item {
+  font-size: 1.875rem;
+  color: #c5c5c5;
+}
+
+.socials-list__item a:visited {
+  color: #c5c5c5;
+}
+
+.site-cta__btn {
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+}
