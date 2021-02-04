@@ -28,16 +28,16 @@ a.site-hero__btn {
 }
 
 .site-hero__portrait {
-  height: 100vh;
+  height: 75vh;
 }
 
 @media screen and (max-width: 1340px) {
   .site-hero__portrait {
-    height: 70vh;
+    height: 60vh;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .site-hero__inner {
     width: 70%;
   }
@@ -53,8 +53,17 @@ a.site-hero__btn {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .site-hero__portrait {
-    height: 50vh;
+    height: 35vh;
+  }
+  h1.site-hero__title {
+    font-size: 2.75rem;
+  }
+  
+  h2.site-hero__subtitle,
+  a.site-hero__btn {
+    font-size: 1.125rem;
+    line-height: 1.3em;
   }
 }
