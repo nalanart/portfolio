@@ -33,3 +33,33 @@
 a.site-featured__btn {
   border-radius: 1.5rem;
 }
+
+@media screen and (max-width: 1000px) {
+  .site-featured__title {
+    font-size: 1.5rem;
+  }
+  .site-featured__subtitle {
+    font-size: 0.875rem;
+  }
+  a.site-featured__btn {
+    font-size: 0.875rem;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .site-featured__inner hr {
+    margin-bottom: 1rem;
+  }
+  .site-featured__img {
+    order: 2;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .site-featured__preview {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .site-featured__content {
+    margin-left: 0;
+  }
+}

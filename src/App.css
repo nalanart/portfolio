@@ -30,3 +30,7 @@ footer {
 footer p {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 1340px) {
+  
+}

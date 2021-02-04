@@ -28,3 +28,32 @@ a.site-menu__item {
 a.site-menu__item:not(:last-child) {
   margin-right: 4.5rem;
 }
+
+@media screen and (max-width: 1340px) {
+  
+}
+
+@media screen and (max-width: 1000px) {
+  a.site-menu__item:not(:last-child) {
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .site-navbar__inner {
+    flex-direction: column;
+  }
+
+  .site-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .site-menu__item:first-child {
+    margin-top: 2rem;
+  }
+
+  .site-menu__item:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}

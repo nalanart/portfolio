@@ -7,7 +7,7 @@
 }
 
 .site-hero__content {
-  width: 50%;
+  width: 40%;
 }
 
 h1.site-hero__title {
@@ -28,5 +28,33 @@ a.site-hero__btn {
 }
 
 .site-hero__portrait {
-  width: 400px;
+  height: 100vh;
+}
+
+@media screen and (max-width: 1340px) {
+  .site-hero__portrait {
+    height: 70vh;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .site-hero__inner {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .site-hero__inner {
+    flex-direction: column;
+  }
+  .site-hero__content {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .site-hero__portrait {
+    height: 50vh;
+  }
 }
