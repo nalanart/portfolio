@@ -42,6 +42,74 @@ a.projects-projects__btn {
   box-shadow: 10px 10px 5px grey;
 }
 
+#workout-app .projects-projects__content {
+  margin-left: 3rem;
+}
+
+#ez-meal .projects-projects__content {
+  margin-right: 3rem;
+}
+
+.projects-projects__content h2 {
+  font-size: 2.5rem;
+}
+
+.stack {
+  list-style: circle;
+}
+
+.projects-projects__content p,
+.stack li {
+  font-size: 1.5rem;
+}
+
 #ez-meal img{
-  order: 2;
+  order: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  h1.projects-hero__title {
+    font-size: 2.125rem;
+  }
+  
+  h2.projects-hero__subtitle {
+    font-size: 1.125rem;
+  }
+
+  .projects-projects {
+    padding-top: 3rem;
+  }
+  
+  .projects-projects__preview {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto 3rem auto;
+  }
+
+  .projects-projects__img {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .projects-projects__content h2 {
+    font-size: 2rem;
+  }
+
+  .projects-projects__content p,
+  .projects-projects__content a,
+  .stack li {
+  font-size: 1rem;
+}
+
+  #workout-app .projects-projects__content {
+    margin-left: 0;
+  }
+
+  #ez-meal img{
+    order: 0;
+  }
+
+  #ez-meal .projects-projects__content {
+    margin-right: 0;
+  }
 }

@@ -19,7 +19,7 @@
 }
 
 .site-featured__content {
-  margin-left: 5rem;
+  margin-left: 4rem;
 }
 
 .site-featured__title {
@@ -35,6 +35,9 @@ a.site-featured__btn {
 }
 
 @media screen and (max-width: 1000px) {
+  .site-featured__content {
+    margin-left: 2rem;
+  }
   .site-featured__title {
     font-size: 1.5rem;
   }

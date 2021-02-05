@@ -20,10 +20,11 @@ const Projects = () => {
             <h2 className="projects-projects__title">Workout App</h2>
             <p className="projects-projects__subtitle">A web app to plan and track your workouts, based off Reddit's PPL program.</p>
             <div className="projects-projects__skills">
-              <ul>
-                <li>CSS</li>
+              <ul className="stack">
+                <li>MongoDB</li>
+                <li>Express</li>
                 <li>React</li>
-                <li>JS</li>
+                <li>Node</li>
               </ul>
             </div>
             <a className="projects-projects__btn btn btn-primary btn-lg" href="https://hidden-hamlet-50464.herokuapp.com/" target="_blank" rel="noreferrer">View Demo</a>
@@ -33,12 +34,13 @@ const Projects = () => {
           <img className="projects-projects__img" src={EZmeal} alt="Workout-app-preview" />
           <div className="projects-projects__content">
             <h2 className="projects-projects__title">EZmeal</h2>
-            <p className="projects-projects__subtitle">A meal-kit delivery service where you can plan and choose your meals for the week.</p>
+            <p className="projects-projects__subtitle">An e-commerce site for a meal-kit delivery service where you can plan and choose your meals for the week.</p>
             <div className="projects-projects__skills">
-              <ul>
-                <li>CSS</li>
+              <ul className="stack">
+                <li>MongoDB</li>
+                <li>Express</li>
                 <li>React</li>
-                <li>JS</li>
+                <li>Node</li>
               </ul>
             </div>
             <a className="projects-projects__btn btn btn-primary btn-lg" href="https://ez-meal.herokuapp.com/" target="_blank" rel="noreferrer">View Demo</a>
