@@ -14,7 +14,7 @@ const Projects = () => {
         </div>
       </section>
       <section className="projects-projects">
-        <article className="projects-projects__preview">
+        <article id="workout-app" className="projects-projects__preview">
           <img className="projects-projects__img" src={WorkoutApp} alt="Workout-app-preview" />
           <div className="projects-projects__content">
             <h2 className="projects-projects__title">Workout App</h2>
@@ -26,10 +26,10 @@ const Projects = () => {
                 <li>JS</li>
               </ul>
             </div>
-            <a className="projects-projects__btn btn btn-primary btn-lg" href="/projects/workout-app">View Details</a>
+            <a className="projects-projects__btn btn btn-primary btn-lg" href="https://hidden-hamlet-50464.herokuapp.com/" target="_blank" rel="noreferrer">View Demo</a>
           </div>
         </article>
-        <article className="projects-projects__preview">
+        <article id="ez-meal" className="projects-projects__preview">
           <img className="projects-projects__img" src={EZmeal} alt="Workout-app-preview" />
           <div className="projects-projects__content">
             <h2 className="projects-projects__title">EZmeal</h2>
@@ -41,7 +41,7 @@ const Projects = () => {
                 <li>JS</li>
               </ul>
             </div>
-            <a className="projects-projects__btn btn btn-primary btn-lg" href="/projects/workout-app">View Details</a>
+            <a className="projects-projects__btn btn btn-primary btn-lg" href="https://ez-meal.herokuapp.com/" target="_blank" rel="noreferrer">View Demo</a>
           </div>
         </article>
       </section>

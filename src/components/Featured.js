@@ -18,7 +18,7 @@ const Featured = () => {
               <li>JS</li>
             </ul>
           </div>
-          <a className="site-featured__btn btn btn-primary btn-lg" href="/projects/workout-app">View Details</a>
+          <a className="site-featured__btn btn btn-primary btn-lg" href="https://hidden-hamlet-50464.herokuapp.com/" target="_blank" rel="noreferrer">View Demo</a>
         </div>
       </article>
     </div>

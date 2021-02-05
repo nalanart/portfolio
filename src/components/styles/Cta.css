@@ -61,3 +61,12 @@
     margin-bottom: 1rem;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .site-cta__content {
+    text-align: center;
+  }
+  .site-cta__inner {
+    align-items: center;
+  }
+}

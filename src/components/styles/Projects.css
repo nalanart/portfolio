@@ -32,10 +32,16 @@ a.projects-projects__btn {
   justify-content: space-between;
   align-items: center;
   width: 80%;
-  margin: 0 auto 5rem auto;
+  margin: 0 auto 10rem auto;
 }
 
 .projects-projects__img {
-  width: 50rem;
+  max-width: 60%;
+  height: auto;
   border: 1px solid #adadad;
+  box-shadow: 10px 10px 5px grey;
+}
+
+#ez-meal img{
+  order: 2;
 }
