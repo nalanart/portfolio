@@ -33,7 +33,7 @@
   }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 768px) {
   .site-cta__title {
     font-size: 2.125rem;
   }
@@ -59,14 +59,5 @@
 
   .site-cta__content {
     margin-bottom: 1rem;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .site-cta__content {
-    text-align: center;
-  }
-  .site-cta__inner {
-    align-items: center;
   }
 }

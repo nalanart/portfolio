@@ -53,6 +53,10 @@ a.site-hero__btn {
   }
 }
 
+@media screen and (max-width: 768px) {
+  
+}
+
 @media screen and (max-width: 425px) {
   .site-hero__portrait {
     height: 35vh;

@@ -49,7 +49,7 @@ a.site-featured__btn {
   }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 768px) {
   .site-featured__inner hr {
     margin-bottom: 1rem;
   }
