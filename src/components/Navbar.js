@@ -1,13 +1,21 @@
 import './styles/Navbar.css'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 const Navbar = (params) => {
   const [active, setActive] = useState(false)
 
+  useEffect(() => {
+    if(active) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'unset'
+    }
+  }, [active])
+
   return (
     <div className="site-navbar__inner">
       <div className="site-navbar__section">
-        <a className="site-logo" href="/">ALAN TRAN</a>
+        <a className="site-logo" href="/">BLAH</a>
       </div>
       <div id="nav-links" className="site-navbar__section">
         <nav className={active ? "site-menu burger-active" : "site-menu"}>

@@ -33,8 +33,9 @@ footer p {
 
 @media screen and (max-width: 768px) {
   body {
-    overflow-x: hidden;
-  }
+    /* height: 100%; */
+    overflow: hidden;
+    }
   .site-hero {
     padding-top: 2rem;
   }
