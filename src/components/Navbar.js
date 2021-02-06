@@ -15,7 +15,7 @@ const Navbar = (params) => {
   return (
     <div className="site-navbar__inner">
       <div className="site-navbar__section">
-        <a className="site-logo" href="/">BLAH</a>
+        <a className="site-logo" href="/">ALAN TRAN</a>
       </div>
       <div id="nav-links" className="site-navbar__section">
         <nav className={active ? "site-menu burger-active" : "site-menu"}>
