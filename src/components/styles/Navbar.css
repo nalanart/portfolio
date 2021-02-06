@@ -16,6 +16,7 @@
   color: #d1d1d1
 }
 
+
 a.site-logo {
   font-weight: 700;
   font-size: 2.5rem;
@@ -52,10 +53,10 @@ a.site-menu__item:not(:last-child) {
   }
 
   .site-menu {
-    position: absolute;
+    position: fixed;
     right: 0;
     top: 9rem;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;

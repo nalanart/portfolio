@@ -9,7 +9,7 @@ const Navbar = (params) => {
       <div className="site-navbar__section">
         <a className="site-logo" href="/">ALAN TRAN</a>
       </div>
-      <div className="site-navbar__section">
+      <div id="nav-links" className="site-navbar__section">
         <nav className={active ? "site-menu burger-active" : "site-menu"}>
           <a className="site-menu__item" href="/projects">Projects</a>
           <a className="site-menu__item" href="/about">About</a>
