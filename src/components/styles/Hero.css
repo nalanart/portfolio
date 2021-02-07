@@ -29,7 +29,8 @@ a.site-hero__btn {
 }
 
 .site-hero__portrait {
-  height: 60vh;
+  max-height: 60vh;
+  min-width: 20vh;
 }
 
 @media screen and (max-width: 1024px) {
