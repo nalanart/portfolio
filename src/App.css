@@ -2,8 +2,10 @@
   background-color: #ffffff;
 }
 
-.App header {
+.site-navbar {
   background-color: #646464;
+  height: 16vh;
+  display: flex;
 }
 
 .site-hero {
