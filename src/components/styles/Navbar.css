@@ -43,6 +43,20 @@ a.site-menu__item:not(:last-child) {
   transition: all 0.3s ease;
 }
 
+@media screen and (max-width: 1024px) {
+  a.site-logo {
+    font-size: 2.125rem;
+  }
+
+  a.site-menu__item {
+    font-size: 1.5rem;
+  }
+
+  a.site-menu__item:not(:last-child) {
+    margin-right: 4rem;
+  }
+}
+
 @media screen and (max-width: 768px) {  
   .burger {
     display: block;
