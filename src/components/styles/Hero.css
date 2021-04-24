@@ -28,6 +28,10 @@ a.site-hero__btn {
   padding: 1rem 1.5rem;
 }
 
+.site-hero__btn.mobile {
+  display: none;
+}
+
 .site-hero__portrait {
   max-height: 60vh;
   min-width: 20vh;
@@ -59,7 +63,15 @@ a.site-hero__btn {
     margin-bottom: 2rem;
   }
 
+  .site-hero__btn.desktop {
+    display: none;
+  }
+
   .site-hero__portrait {
     height: 40vh;
+  }
+
+  .site-hero__btn.mobile {
+    display: block;
   }
 }

@@ -1,5 +1,5 @@
 import './styles/Featured.css'
-import WorkoutApp from '../WorkoutAppPreview.JPG'
+import MentionsCrawler from "../utils/images/MentionsCrawler.png";
 
 const Featured = () => {
   return (
@@ -7,10 +7,10 @@ const Featured = () => {
       <h2 className="site-featured__title section-title">FEATURED PROJECT</h2>
       <hr></hr>
       <article className="site-featured__preview">
-        <img className="site-featured__img" src={WorkoutApp} alt="Workout-app-preview" />
+        <img className="site-featured__img" src={MentionsCrawler} alt="Workout-app-preview" />
         <div className="site-featured__content">
-          <h2 className="site-featured__title">Workout App</h2>
-          <p className="site-featured__subtitle">A web app to plan and track your workouts, based off Reddit's PPL program.</p>
+          <h2 className="site-featured__title">Mentions Crawler</h2>
+          <p className="site-featured__subtitle">A web app that scrapes platforms for mentions of your company!</p>
           <div className="site-featured__skills">
             <ul className="stack">
               <li>MongoDB</li>
@@ -19,7 +19,7 @@ const Featured = () => {
               <li>Node</li>
             </ul>
           </div>
-          <a className="site-featured__btn btn btn-primary btn-lg" href="https://hidden-hamlet-50464.herokuapp.com/" target="_blank" rel="noreferrer">View Demo</a>
+          <a className="site-featured__btn btn btn-primary btn-lg" href="https://github.com/hatchways/team-dolphin" target="_blank" rel="noreferrer">View Repo</a>
         </div>
       </article>
     </div>

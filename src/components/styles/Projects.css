@@ -25,6 +25,8 @@ h2.projects-hero__subtitle {
 
 a.projects-projects__btn {
   border-radius: 1.5rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 .projects-projects__preview {
@@ -63,6 +65,14 @@ a.projects-projects__btn {
   font-size: 1.5rem;
 }
 
+#mentions-crawler img {
+  order: 1;
+}
+
+#mentions-crawler .projects-projects__content {
+  margin-right: 3rem;
+}
+
 #ez-meal img{
   order: 1;
 }
@@ -99,7 +109,11 @@ a.projects-projects__btn {
   .projects-projects__content a,
   .stack li {
   font-size: 1rem;
-}
+  }
+
+  #mentions-crawler img {
+    order: 0;
+  }
 
   #workout-app .projects-projects__content {
     margin-left: 0;

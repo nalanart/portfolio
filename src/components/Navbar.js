@@ -27,7 +27,6 @@ const Navbar = (params) => {
       <div id="nav-links" className="site-navbar__section">
         <nav className={burgerActive ? "site-menu burger-active" : "site-menu"}>
           <a className={getLinkClass('/projects')} href="/projects">Projects</a>
-          <a className={getLinkClass('/about')} href="/about">About</a>
           <a className={getLinkClass('/contact')} href="/contact">Contact</a>
         </nav>
       </div>
