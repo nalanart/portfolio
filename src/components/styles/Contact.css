@@ -1,0 +1,41 @@
+.contact {
+  height: 70vh;
+}
+
+.contact-hero {
+  background-color: #646464;
+  padding: 1rem 0 3rem 0;
+}
+
+.contact__socials {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 30rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 4em;
+  letter-spacing: 4px;
+}
+
+.card-body .card-subtitle {
+  font-size: 1.5em;
+}
+
+.card-body ul {
+  padding: 0;
+}
+
+li {
+  text-align: center;
+}

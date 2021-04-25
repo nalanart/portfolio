@@ -6,6 +6,7 @@ import Featured from './components/Featured'
 import Cta from './components/Cta'
 import Projects from './components/Projects'
 import About from './components/About'
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -33,7 +34,7 @@ function App() {
             <About />
           </Route>
           <Route path="/contact">
-            Contact
+            <Contact />
           </Route>
         </Switch>
       </Router>
